@@ -1,0 +1,39 @@
+.header-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+.contact-phone {
+  margin-left: 50px;
+}
+.header-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+.contact-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.contact-list .contact {
+  color: var(--primery-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-list .contact:hover,
+.contact-list .contact:focus {
+  color: var(--accent-color);
+}
