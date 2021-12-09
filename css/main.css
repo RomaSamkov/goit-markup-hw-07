@@ -124,12 +124,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-
-.site-nav .link.current {
+.site-nav .link:hover, .site-nav .link:focus, .site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -427,14 +422,13 @@ body {
   color: var(--icons-color);
 }
 
-.network-link-icon {
-  fill: currentColor;
-}
-
-.network-link:hover,
-.network-link:focus {
+.network-link:hover, .network-link:focus {
   color: var(--primery-white-color);
   background-color: var(--accent-color);
+}
+
+.network-link-icon {
+  fill: currentColor;
 }
 
 .clients {
@@ -655,8 +649,7 @@ body {
   color: var(--primery-white-color);
 }
 
-.subscribe-button:hover,
-.subscribe-button:focus {
+.subscribe-button:hover, .subscribe-button:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
