@@ -184,8 +184,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-list .contact:hover,
-.contact-list .contact:focus {
+.contact-list .contact:hover, .contact-list .contact:focus {
   color: var(--accent-color);
 }
 
@@ -478,14 +477,13 @@ body {
   color: var(--icons-color);
 }
 
-.clients-icon {
-  fill: currentColor;
-}
-
-.cliets-link:hover,
-.cliets-link:focus {
+.cliets-link:hover, .cliets-link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
+}
+
+.clients-icon {
+  fill: currentColor;
 }
 
 .footer {
@@ -873,8 +871,7 @@ body {
   background: var(--accent-color);
 }
 
-.button-send:hover,
-.button-send:focus {
+.button-send:hover, .button-send:focus {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
