@@ -33,10 +33,14 @@
 .check-icon {
   fill: var(--primery-white-color);
 }
-.modal-check:checked + .check-text .check-item {
-  background-color: var(--accent-color);
-  border: none;
+.modal-check:checked + .check-text {
+  .check-item {
+    background-color: var(--accent-color);
+    border: none;
+  }
 }
-.modal-check:focus + .check-text .check-item {
-  border-color: var(--accent-color);
+.modal-check:focus + .check-text {
+  .check-item {
+    border-color: var(--accent-color);
+  }
 }
