@@ -1,8 +1,8 @@
-.work-item {
+.work__item {
   position: relative;
 }
 
-.work-text {
+.work__text {
   position: absolute;
   display: block;
   bottom: 0;
@@ -20,11 +20,11 @@
 
   color: var(--primery-white-color);
 }
-.work-list {
+.work__list {
   display: flex;
   flex-wrap: wrap;
 }
-.work-item {
+.work__item {
   margin-right: 30px;
   width: 370px;
 
@@ -32,7 +32,7 @@
     margin-right: 0px;
   }
 }
-.work-title {
+.work__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;

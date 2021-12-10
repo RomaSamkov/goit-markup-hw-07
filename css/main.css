@@ -302,11 +302,11 @@ body {
   line-height: 1.71;
 }
 
-.work-item {
+.work__item {
   position: relative;
 }
 
-.work-text {
+.work__text {
   position: absolute;
   display: block;
   bottom: 0;
@@ -324,21 +324,21 @@ body {
   color: var(--primery-white-color);
 }
 
-.work-list {
+.work__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.work-item {
+.work__item {
   margin-right: 30px;
   width: 370px;
 }
 
-.work-item:nth-child(3n) {
+.work__item:nth-child(3n) {
   margin-right: 0px;
 }
 
-.work-title {
+.work__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
