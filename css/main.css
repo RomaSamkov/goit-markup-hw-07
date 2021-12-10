@@ -80,22 +80,22 @@ body {
   line-height: 1.2;
 }
 
-.logo-web {
+.logo__web {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
 
-.page-nav {
+.header__nav {
   display: flex;
   align-items: center;
 }
 
-.page-header {
+.header {
   border-bottom: 1px solid #ececec;
 }
 
