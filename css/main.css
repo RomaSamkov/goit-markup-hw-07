@@ -509,7 +509,7 @@ body {
   color: var(--accent-color);
 }
 
-.address {
+.footer__card {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -517,7 +517,7 @@ body {
   color: var(--primery-white-color);
 }
 
-.address__list {
+.footer__location {
   margin-bottom: 9px;
 }
 

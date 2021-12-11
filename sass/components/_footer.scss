@@ -25,7 +25,7 @@
 
   color: var(--accent-color);
 }
-.address {
+.footer__card {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -33,7 +33,7 @@
 
   color: var(--primery-white-color);
 }
-.address__list {
+.footer__location {
   margin-bottom: 9px;
 }
 .footer__contact:not(:last-child) {
