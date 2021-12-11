@@ -1,9 +1,9 @@
-.features-list {
+.features__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-.button {
+.features__btn {
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
@@ -32,6 +32,6 @@
   }
 }
 
-.button-item:not(:last-child) {
+.features__item:not(:last-child) {
   margin-right: 8px;
 }
